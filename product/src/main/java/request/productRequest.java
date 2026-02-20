@@ -58,7 +58,69 @@ public class productRequest {
     }
 
 
-    //getters and setters
+    public entities.category getCategory() {
+        return category;
+    }
+    public void setCategory(entities.category category) {
+        this.category = category;
+    }
+
+    public String getLabel() {
+        return label;
+    }
+
+    public void setLabel(String label) {
+        this.label = label;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public int getSurface() {
+        return surface;
+    }
+
+    public void setSurface(int surface) {
+        this.surface = surface;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+    public void setPrice(double price) {
+        this.price = price;
+    }
+    public String getDescription() {
+        return description;
+    }
+    public void setDiscription(String description) {
+        this.description = description;
+    }
+    public boolean isSold() {
+        return sold;
+    }
+    public void setSolde(boolean sold) {
+        this.sold = sold;
+    }
+    public String getUserId() {
+        return userId;
+    }
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
 
 
 
