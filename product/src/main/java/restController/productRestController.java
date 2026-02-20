@@ -6,8 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import lombok.RequiredArgsConstructor;
+import repositories.productRepository;
 
-
+import entities.product;
+import repositories.productRepository;
 
 
 @RequestMapping("/product")
@@ -16,6 +18,6 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 public class productRestController {
-    @Autowired
-    private productService productService;
+
+    
 }
