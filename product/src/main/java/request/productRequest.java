@@ -37,7 +37,7 @@ public class productRequest {
         return sellerAddress;
     }
 
-    public void setSellerAddress(Sting sellerAddress) {
+    public void setSellerAddress(String sellerAddress) {
         this.sellerAddress = sellerAddress;
     }
 
@@ -53,7 +53,7 @@ public class productRequest {
         return images;
     }
 
-    public List<String> getImages(List<String> images) {
+    public void setImages(List<String> images) {
         this.images = images;
     }
 
