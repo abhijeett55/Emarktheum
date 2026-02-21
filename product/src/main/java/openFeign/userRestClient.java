@@ -1,6 +1,6 @@
-package openFeign;
+package openfeign;
 
-import ord.springframework.cloud.openfeign;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
 

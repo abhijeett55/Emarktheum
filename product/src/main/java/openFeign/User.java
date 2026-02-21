@@ -1,4 +1,4 @@
-package openFeign;
+package openfeign;
 
 public class User {
     

@@ -1,4 +1,4 @@
-package restController;
+package com.market.product.restcontroller;
 
 import java.util.*;
 
@@ -16,9 +16,8 @@ import repositories.productRepository;
 import entities.product;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
-import repositories.productRepository;
 import openFeign.userRestClient;
-import services.productServive;
+import services.productService;
 
 
 @RequestMapping("/product")
@@ -29,7 +28,7 @@ import services.productServive;
 public class productRestController {
 
     @Autowired
-    private productServive productSer;
+    private productService productSer;
 
     @Autowired
     private productRepository productRepo;

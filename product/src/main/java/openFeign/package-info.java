@@ -1,1 +1,1 @@
-package openFeign;
+package openfeign;
